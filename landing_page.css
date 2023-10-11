@@ -1,0 +1,190 @@
+body{
+    background-color:midnightblue;
+    font-family: sans-serif;
+}
+
+
+/*-------------- Navigation Bar---------------- */
+nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>ul{
+    list-style: none;
+}
+
+.navList1{
+    width:25%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    color: white;
+    font-size: larger;
+}
+
+.navList2{
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: medium;
+}
+#navList2Button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(223, 63, 95);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: medium;
+}
+.navList1>li:hover, .navList2>li:hover{
+    color: rgb(223, 63, 95);
+    cursor: pointer;
+}
+#navList2Button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: black;
+}
+
+
+/*-------------- Main Content---------------- */
+main{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+}
+.mainArticle1{
+    width: 30%;
+    height: 500px;
+    /* background-color: pink; */
+}
+
+#mainArticle1Content1{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#mainArticle1Content2{
+    width: 78%;
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+}
+#mainArticle1Button{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(220, 43, 79);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+#mainArticle1Button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: black;
+}
+
+
+/*-------------- Form Content---------------- */
+.mainArticle2{
+    width: 38%;
+    height: 550px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.formMainContainer{
+    height: 85%;
+    width: 70%;
+    background-color: white;
+    border-radius: 15px;
+}
+#signUpText{
+    color: indigo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:30px;
+}
+.formHolderDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#email,#password{
+    width: 250px;
+    height: 35px;
+    background-color: white;
+    border: .5px solid grey;
+    border-radius: 25px;
+    text-indent: 15px;
+}
+#check{
+    color: grey;
+    font-size: small;
+    margin-left: 5px;
+    text-align: center;
+}
+#signInButton,#twitterLoginButton{
+    width: 250px;
+    height: 35px;
+    background-color: midnightblue;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+#twitterLoginButton{
+    background-color:rgb(45 136 226);
+}
+#orOptionLine{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: yellow; */
+    align-items: center;
+}
+#leftLine{
+    width: 40%;
+    height: .1px;
+    border: .1px solid grey;
+}
+#orOptionLine>p{
+    font-size: small;
+}
+#rightLine{
+    width: 40%;
+    height: .1px;
+    border: .1px solid grey;
+}
+.signInLink{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 90%;
+}
+.signInLink>p{
+    font-size: small;
+    color: grey;
+}
+.signInLink>a{
+    font-size: small;
+    color: rgb(95, 159, 222);
+}
+#signInButton:hover,#twitterLoginButton:hover{
+    transform: scale(.95);
+    color: black;
+    cursor: pointer;
+}
